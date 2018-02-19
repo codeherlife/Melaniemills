@@ -61,10 +61,10 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this,
-                R.layout.list_item_events,
-                R.id.text_view_events,
-                events_list );
-        ListView listView = (ListView)this.findViewById(R.id.list_view_events);
+                R.layout.list_item_candy,
+                R.id.list_view_candy,
+                events_list);
+        ListView listView = (ListView) this.findViewById(R.id.list_view_candy);
         listView.setAdapter(adapter);
     }
 

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         ArrayList<String> events_list = new ArrayList<String>();
-        events_list.add("Ancora by Einaudi");
+        events_list.add("Ancora by Ludovico Einaudi");
         events_list.add("Carry On by Fun");
         events_list.add("Chim Chim Cheree (Mary Poppins)");
         events_list.add("Chopin Nocturne");
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         events_list.add("Monday by Einaudi");
         events_list.add("Moonlight Sonata by Beethoven");
         events_list.add("Nightbook by Einaudi");
+        events_list.add("Nuvole Bianchi by Einaudi");
         events_list.add("Ombre by Einaudi");
         events_list.add("Over the Rainbow");
         events_list.add("Prelude No. 4 in F maj by Bach");
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         // this is where the toast begins
         Context context = this;
-        String text = "Welcome to the Melanie Mills' jukebox!";
+        String text = "Welcome to the Melanie Mills' pianist jukebox!";
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
